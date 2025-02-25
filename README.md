@@ -5,8 +5,11 @@ Ce projet explore la conjecture d'Erdos-Straus et implémente des algorithmes en
 Contenu du projet :
 
 conjecture_erdos_straus.pdf : Un document en LaTeX expliquant la conjecture et les résultats associés.
+
 Test pour n = 10^10 (optimisé) : L'implémentation de l'algorithme en C.
+
 Test pour n = 10^10 (Python) : L'implémentation de l'algorithme en Python.
+
 Installation :
 Aucune installation spécifique n'est nécessaire. Télécharge simplement les fichiers et lance les scripts Python et C directement.
 
