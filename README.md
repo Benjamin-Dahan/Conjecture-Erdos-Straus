@@ -27,5 +27,4 @@ Résultats :
 L'algorithme Python est une facon plus abordable de comprendre le code à la première lecture, tandis que l'algorithme C a été optimisé pour les grands nombres (n = 10^10 mais encore plus aussi !).
 Attention la valeur de départ n = 3361 car 3361 est la seule exception connue aux programmes sur les 10^10 testées.
 
-Auteurs :
-Benjamin Dahan
+
