@@ -1,0 +1,9 @@
+build/
+*.exe
+*.o
+__pycache__/
+*.aux
+*.log
+*.out
+*.toc
+.DS_Store

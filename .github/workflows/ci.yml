@@ -1,0 +1,17 @@
+name: Erdos-Straus C & Python Verification CI
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compile C11 sieve tool with strict warnings
+        run: make CFLAGS="-Wall -Wextra -Werror -std=c11 -O3"
+      - name: Run CLI integration tests and Section 7 mathematical verification
+        run: make test
